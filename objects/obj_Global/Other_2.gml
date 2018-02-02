@@ -1,0 +1,3 @@
+/// @description Randomize Game
+randomize();
+

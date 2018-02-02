@@ -1,0 +1,560 @@
+Converting GML script: ${project_dir}\scripts\scr_ItemPickup\scr_ItemPickup.gml
+Converted description /// @description Pick up ground item on click and find first open slot
+
+Converting GML script: ${project_dir}\scripts\scr_ItemPickupSlot\scr_ItemPickupSlot.gml
+Converted description /// @description Change specific inventory slot to whatever you were holding
+
+Converting GML script: ${project_dir}\scripts\scr_ItemDropSlot\scr_ItemDropSlot.gml
+Converted description /// @description Changes all properties of specified slot to -1 ("empty")/// @function Changes all properties of specified slot to -1 
+/// @param "empty"
+
+Converting GML script: ${project_dir}\scripts\scr_CheckRequirements\scr_CheckRequirements.gml
+Converted description /// @description argument0 == equipslot
+
+Converting GML script: ${project_dir}\scripts\scr_EquipSlot\scr_EquipSlot.gml
+Converted description /// @description Change specific inventory slot to whatever you were holding
+
+Converting GML script: ${project_dir}\scripts\scr_UnequipSlot\scr_UnequipSlot.gml
+Converted description /// @description Changes all properties of specified slot to -1 ("empty")/// @function Changes all properties of specified slot to -1 
+/// @param "empty"
+
+Converting GML script: ${project_dir}\scripts\scr_ItemDropBelt\scr_ItemDropBelt.gml
+Converted description /// @description Changes all properties of specified slot to -1 ("empty")/// @function Changes all properties of specified slot to -1 
+/// @param "empty"
+
+Converting GML script: ${project_dir}\scripts\scr_ItemPickupBelt\scr_ItemPickupBelt.gml
+Converted description /// @description Change specific inventory slot to whatever you were holding
+
+Converting GML script: ${project_dir}\scripts\scr_DrawTooltip\scr_DrawTooltip.gml
+Converted description /// @description Draw Tooltip on cursor 
+
+Converting GML script: ${project_dir}\scripts\scr_DrawTooltipLocation\scr_DrawTooltipLocation.gml
+Converted description /// @description Draw Tooltip on cursor 
+
+Converting GML script: ${project_dir}\scripts\scr_Controls\scr_Controls.gml
+Converted builtin - line 30: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 41: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 30: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 41: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Called from obj_Global End Step
+
+Font font_Tooltip has been converted to font family Arial (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\obj_Global\Create_0.gml
+Converted description /// @description Initialize all global variables and Item held array
+
+Converting GML script: ${project_dir}\objects\obj_Global\Alarm_0.gml
+Converted description /// @description Drop Item on the ground
+
+Converting GML script: ${project_dir}\objects\obj_Global\Step_2.gml
+Converted description /// @description Controls
+
+Converting GML script: ${project_dir}\objects\obj_Global\Mouse_56.gml
+Converted description /// @description Allow moving and casting
+
+Converting GML script: ${project_dir}\objects\obj_Global\Mouse_53.gml
+Converted description /// @description  Set alarm to drop item (if held)/// @function  Set alarm to drop item 
+/// @param if held
+
+Converting GML script: ${project_dir}\objects\obj_Global\Other_2.gml
+Converted description /// @description Randomize Game
+
+Converting GML script: ${project_dir}\objects\obj_Global\Draw_0.gml
+Converted builtin - line 38: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 39: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 42: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 40: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 41: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 43: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Item on Mouse and Item Labels
+
+Converting GML script: ${project_dir}\objects\obj_Global\KeyPress_65.gml
+Converted builtin - line 1: view_angle -= 5 -> __view_set( e__VW.Angle, 0, __view_get( e__VW.Angle, 0 ) - (5) )
+
+Converting GML script: ${project_dir}\objects\obj_Tooltip\Create_0.gml
+Converted description /// @description Initialize Variables, Set Alarm
+
+Converting GML script: ${project_dir}\objects\obj_Tooltip\Alarm_0.gml
+Converted description /// @description Stop showing tooltip
+
+Converting GML script: ${project_dir}\objects\obj_Tooltip\Step_2.gml
+Converted description /// @description Destroy self
+
+Converting GML script: ${project_dir}\objects\obj_Tooltip\Draw_0.gml
+Converted description /// @description  Draw and Position Tooltip
+
+Converting GML script: ${project_dir}\objects\obj_MovePlayer\Draw_77.gml
+Converted description /// @description Move Player
+
+Converting GML script: ${project_dir}\objects\obj_AllEnemyParent\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_AllEnemyParent\Step_0.gml
+Converted description /// @description  AI Movement
+
+Converting GML script: ${project_dir}\objects\obj_AllEnemyParent\Collision_242e327f-d2ff-4e07-8e35-69e9705529fd.gml
+Converted description /// @description Take Damage
+
+Converting GML script: ${project_dir}\objects\obj_AllEnemyParent\Mouse_0.gml
+Converted description /// @description Attack
+
+Converting GML script: ${project_dir}\objects\obj_BasicMeleeEnemyParent\Step_0.gml
+Converted description /// @description Death
+
+Converting GML script: ${project_dir}\objects\obj_Fallen\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_BasicMeleeChampionParent\Step_0.gml
+Converted description /// @description Death
+
+Converting GML script: ${project_dir}\objects\obj_FallenShaman\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_BossParent\Step_0.gml
+Converted description /// @description Death
+
+Converting GML script: ${project_dir}\objects\obj_Diablo\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_GroundItemParent\Create_0.gml
+Converted description /// @description Initialize variables and position
+
+Converting GML script: ${project_dir}\objects\obj_GroundItemParent\Draw_0.gml
+Converted description /// @description Draw item and ground label (on hover)/// @function Draw item and ground label 
+/// @param on hover
+
+Converting GML script: ${project_dir}\objects\obj_HeadParent\Alarm_0.gml
+Converted description /// @description  Set Properties
+
+Converting GML script: ${project_dir}\objects\obj_Cap\Alarm_0.gml
+Converted description /// @description Create Item////////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: ${project_dir}\objects\obj_BodyParent\Alarm_0.gml
+Converted description /// @description  Set Properties
+
+Converting GML script: ${project_dir}\objects\obj_LeatherArmor\Alarm_0.gml
+Converted description /// @description Create Item////////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: ${project_dir}\objects\obj_OffHandParent\Alarm_0.gml
+Converted description /// @description  Set Properties
+
+Converting GML script: ${project_dir}\objects\obj_Buckler\Alarm_0.gml
+Converted description /// @description Create Item////////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: ${project_dir}\objects\obj_GlovesParent\Alarm_0.gml
+Converted description /// @description  Set Properties
+
+Converting GML script: ${project_dir}\objects\obj_LeatherGloves\Alarm_0.gml
+Converted description /// @description Create Item////////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: ${project_dir}\objects\obj_BeltParent\Alarm_0.gml
+Converted description /// @description  Set Properties
+
+Converting GML script: ${project_dir}\objects\obj_LeatherBelt\Alarm_0.gml
+Converted description /// @description Create Item////////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: ${project_dir}\objects\obj_BootsParent\Alarm_0.gml
+Converted description /// @description  Set Properties
+
+Converting GML script: ${project_dir}\objects\obj_LeatherBoots\Alarm_0.gml
+Converted description /// @description Create Item////////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: ${project_dir}\objects\obj_AmuletParent\Alarm_0.gml
+Converted description /// @description  Set Properties
+
+Converting GML script: ${project_dir}\objects\obj_Amulet\Alarm_0.gml
+Converted description /// @description Create Item////////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: ${project_dir}\objects\obj_RingParent\Alarm_0.gml
+Converted description /// @description  Set Properties
+
+Converting GML script: ${project_dir}\objects\obj_Ring\Alarm_0.gml
+Converted description /// @description Create Item////////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: ${project_dir}\objects\obj_BookIdentify\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_BookPortal\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_MinorHealthPotion\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_MinorManaPotion\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_RejuvinationPotion\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_SkeletonKey\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_WeaponParent\Alarm_0.gml
+Converted description /// @description  Set Properties
+
+Converting GML script: ${project_dir}\objects\obj_ShortSword\Alarm_0.gml
+Converted description /// @description Create Item////////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: ${project_dir}\objects\obj_SelectClassArcher\Mouse_4.gml
+Converted description /// @description Choose Class Archer
+
+Converting GML script: ${project_dir}\objects\obj_SelectClassMage\Mouse_4.gml
+Converted description /// @description Choose Class Mage
+
+Converting GML script: ${project_dir}\objects\obj_SelectClassWarrior\Mouse_4.gml
+Converted description /// @description Choose Class Warrior
+
+Converting GML script: ${project_dir}\objects\obj_PlayerGenerator\Create_0.gml
+Converted description /// @description Change self into character depending on class choice
+
+Converting GML script: ${project_dir}\objects\obj_Inventory\Create_0.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Initialize Variables/Enum properties/Initialize array
+
+Converting GML script: ${project_dir}\objects\obj_Inventory\Mouse_4.gml
+Converted description /// @description Clicking on something
+
+Converting GML script: ${project_dir}\objects\obj_Inventory\Draw_0.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw and position inventory, position buttons
+
+Converting GML script: ${project_dir}\objects\obj_InventoryButton\Draw_0.gml
+Converted description /// @description Draw and interact with items in inventory
+
+Converting GML script: ${project_dir}\objects\obj_EquipButtonParent\Draw_0.gml
+Converted description /// @description Draw and interact with equipped items
+
+Converting GML script: ${project_dir}\objects\obj_BeltButton\Draw_0.gml
+Converted description /// @description Draw and interact with items in inventory
+
+Converting GML script: ${project_dir}\objects\obj_Spellbook\Step_2.gml
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw spellbook
+
+Converting GML script: ${project_dir}\objects\obj_Spellbook\Mouse_0.gml
+Converted description /// @description Clicking on something
+
+Converting GML script: ${project_dir}\objects\obj_Spellbook\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Menu
+
+Converting GML script: ${project_dir}\objects\obj_Spellbook2\Step_2.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw spellbook
+
+Converting GML script: ${project_dir}\objects\obj_Spellbook2\Mouse_0.gml
+Converted description /// @description Clicking on something
+
+Converting GML script: ${project_dir}\objects\obj_Spellbook2\Draw_0.gml
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Menu
+
+Converting GML script: ${project_dir}\objects\obj_SpellbookFirebolt\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_SpellbookFirebolt\Step_2.gml
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Destroy if Spells Menu closes
+
+Converting GML script: ${project_dir}\objects\obj_SpellbookFirebolt\Mouse_4.gml
+Converted description /// @description Change Active Spell and close Spellbook
+
+Converting GML script: ${project_dir}\objects\obj_SpellbookFirebolt\Draw_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Self
+
+Converting GML script: ${project_dir}\objects\obj_SpellbookIcebolt\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_SpellbookIcebolt\Step_2.gml
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Destroy if Spells Menu closes
+
+Converting GML script: ${project_dir}\objects\obj_SpellbookIcebolt\Mouse_4.gml
+Converted description /// @description Change Active Spell and close Spellbook
+
+Converting GML script: ${project_dir}\objects\obj_SpellbookIcebolt\Draw_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Self
+
+Converting GML script: ${project_dir}\objects\obj_StatsMenu\Step_2.gml
+Converted description /// @description Draw Stat Buttons
+
+Converting GML script: ${project_dir}\objects\obj_StatsMenu\Mouse_4.gml
+Converted description /// @description Clicking on something
+
+Converting GML script: ${project_dir}\objects\obj_StatsMenu\Draw_0.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 27: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 30: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 31: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 34: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 35: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 38: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 39: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 42: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 43: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 46: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 47: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 50: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 51: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 54: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 55: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 58: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 59: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 62: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 63: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 64: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 67: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 68: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 71: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 72: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 73: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 76: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 77: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 80: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 81: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 84: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 85: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 88: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 89: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 92: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 93: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 96: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 97: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 100: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 101: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 104: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 105: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 26: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 27: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 30: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 31: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 34: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 35: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 38: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 39: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 42: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 43: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 46: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 47: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 50: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 51: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 54: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 55: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 58: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 59: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 62: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 63: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 64: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 67: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 68: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 71: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 72: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 73: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 76: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 77: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 80: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 81: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 84: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 85: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 88: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 89: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 92: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 93: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 96: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 97: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 100: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 101: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 104: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 105: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Stats
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseStrength\Step_2.gml
+Converted description /// @description Destroy Self
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseStrength\Mouse_7.gml
+Converted description /// @description Increase Strength
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseStrength\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Self
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseDexterity\Step_2.gml
+Converted description /// @description Destroy Self
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseDexterity\Mouse_7.gml
+Converted description /// @description Increase Dexterity
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseDexterity\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Self
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseVitality\Step_2.gml
+Converted description /// @description Destroy Self
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseVitality\Mouse_7.gml
+Converted description /// @description Increase Vitality
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseVitality\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Self
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseEnergy\Step_2.gml
+Converted description /// @description Destroy Self
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseEnergy\Mouse_7.gml
+Converted description /// @description Increase Energy
+
+Converting GML script: ${project_dir}\objects\obj_IncreaseEnergy\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Self
+
+Converting GML script: ${project_dir}\objects\obj_UI\Create_0.gml
+Converted description /// @description Initialize Belt Array
+
+Converting GML script: ${project_dir}\objects\obj_UI\Mouse_4.gml
+Converted description /// @description Clicking on something
+
+Converting GML script: ${project_dir}\objects\obj_UI\Draw_0.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 39: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 26: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 40: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw UI
+
+Converting GML script: ${project_dir}\objects\obj_StatUpButton\Mouse_4.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Open Stats Menu
+
+Converting GML script: ${project_dir}\objects\obj_StatUpButton\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Self
+
+Converting GML script: ${project_dir}\objects\obj_InventoryButtonUI\Mouse_4.gml
+Converted description /// @description Open Inventory
+
+Converting GML script: ${project_dir}\objects\obj_InventoryButtonUI\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Self
+
+Converting GML script: ${project_dir}\objects\obj_SkillTreeButtonUI\Mouse_4.gml
+Converted description /// @description Open Skill Tree
+
+Converting GML script: ${project_dir}\objects\obj_SkillTreeButtonUI\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Self
+
+Converting GML script: ${project_dir}\objects\obj_Skill1Button\Mouse_4.gml
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Open Spellbook
+
+Converting GML script: ${project_dir}\objects\obj_Skill1Button\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Self
+
+Converting GML script: ${project_dir}\objects\obj_Skill2Button\Mouse_4.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Open Spellbook
+
+Converting GML script: ${project_dir}\objects\obj_Skill2Button\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw Self
+
+Converting GML script: ${project_dir}\objects\obj_PlayerController\Create_0.gml
+Converted description /// @description Initialize Stats      
+
+Converting GML script: ${project_dir}\objects\obj_PlayerController\Step_2.gml
+Converted description /// @description Check Stats/Leveling Up
+
+Converting GML script: ${project_dir}\objects\obj_PlayerParent\Step_0.gml
+Converted description /// @description Movement
+
+Converting GML script: ${project_dir}\objects\obj_Archer\Create_0.gml
+Converted description /// @description Set Character Stats
+
+Converting GML script: ${project_dir}\objects\obj_Archer\Draw_0.gml
+Converted description /// @description Draw Angle
+
+Converting GML script: ${project_dir}\objects\obj_Mage\Create_0.gml
+Converted description /// @description Set Character Stats
+
+Converting GML script: ${project_dir}\objects\obj_Mage\Draw_0.gml
+Converted description /// @description Draw Angle
+
+Converting GML script: ${project_dir}\objects\obj_Warrior\Create_0.gml
+Converted description /// @description Set Character Stats
+
+Converting GML script: ${project_dir}\objects\obj_Warrior\Draw_0.gml
+Converted description /// @description Draw Angle
+
+Converting GML script: ${project_dir}\objects\obj_SpellFirebolt\Create_0.gml
+Converted description /// @description Inititalize Fire Bolt
+
+Converting GML script: ${project_dir}\objects\obj_SpellFirebolt\Draw_0.gml
+Converted description /// @description Draw Animation
+
+Converting GML script: ${project_dir}\objects\obj_SpellIcebolt\Create_0.gml
+Converted description /// @description Inititalize Ice Bolt
+
+Converting GML script: ${project_dir}\objects\obj_SpellIcebolt\Draw_0.gml
+Converted description /// @description Draw Animation
+
+Converting GML script: ${project_dir}\objects\obj_BookFirebolt\Collision_3f7dd2a3-98df-4bd3-a503-0aad9119b5a1.gml
+Converted description /// @description Learn and equip spell
+
+Converting GML script: ${project_dir}\objects\obj_BookIcebolt\Collision_7c78aa55-d1d3-4935-8d43-5664db0cd88f.gml
+Converted description /// @description Learn and equip spell
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'snd_DiabloMusic' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'action/action_draw_variable.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'tile/tile_add.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
